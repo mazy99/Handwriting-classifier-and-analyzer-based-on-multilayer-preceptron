@@ -18,23 +18,7 @@
 
 
 
-│
-├── data/
-│   ├── raw/              # исходные картинки текста
-│   └── processed/        # обработанные изображения
-│
-├── src/
-│   ├── preprocessing.py  # функции для обработки картинок
-│   ├── features.py       # функции для извлечения признаков
-│   └── model.py          # машинное обучение (если потребуется)
-│
-├── notebooks/
-│   └── 01-exploration.ipynb  # первые эксперименты
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
-
+<pre> ``` ├── data/ │ ├── raw/ # исходные картинки текста │ └── processed/ # обработанные изображения │ ├── src/ │ ├── preprocessing.py # функции для обработки картинок │ ├── features.py # функции для извлечения признаков │ └── model.py # машинное обучение (если потребуется) │ ├── notebooks/ │ └── 01-exploration.ipynb # первые эксперименты │ ├── requirements.txt ├── README.md └── .gitignore ``` </pre>
 
 ## HTTP API
 Сервер на основе **FastAPI** обрабатывает HTTP-запросы и возвращает соответствующие статусы:
